@@ -11341,8 +11341,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: rgb(24,120,36);
-  background: linear-gradient(339deg, rgba(24,120,36,0.9920343137254902) 41%, rgba(18,36,0,1) 100%);
+  background: #0c4128;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11390,8 +11389,9 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: blue;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
@@ -11411,7 +11411,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/picture/header-bg.jpg");
+  background-image: url("../assets/img/bg-header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

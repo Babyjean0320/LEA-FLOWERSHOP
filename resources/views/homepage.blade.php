@@ -27,7 +27,7 @@
                             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> --}}
                         {{-- </span> --}}
                         <h4 class="my-3">Wedding</h4>
-                        <p class="text-muted">We take care of the floral arrangements for the wedding, including creating the bride's bouquet.</p>
+                        <p class="text-center">We take care of the floral arrangements for the wedding, including creating the bride's bouquet.</p>
                     </div>
                     <div class="col-md-4">
                         {{-- <span class="fa-stack fa-4x"> --}}
@@ -35,7 +35,7 @@
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> --}}
                         {{-- </span> --}}
                         <h4 class="my-3">Birthday</h4>
-                        <p class="text-muted">We also specialize in planning and executing spectacular birthday celebrations and debuts that will leave a lasting impression on all of your guests.</p>
+                        <p class="text-center">We also specialize in planning and executing spectacular birthday celebrations and debuts that will leave a lasting impression on all of your guests.</p>
                     </div>
                     <div class="col-md-4">
                         {{-- <span class="fa-stack fa-4x"> --}}
@@ -43,7 +43,7 @@
                             {{-- <i class="fas fa-lock fa-stack-1x fa-inverse"></i> --}}
                         {{-- </span> --}}
                         <h4 class="my-3">Funeral</h4>
-                        <p class="text-muted">We understand that organizing a funeral can be a difficult and emotional task, that's why we provide professional and compassionate support in planning and coordinating all aspects of the funeral service, to ensure that your loved one is honored in the most dignified and meaningful way.</p>
+                        <p class="text-center">We understand that organizing a funeral can be a difficult and emotional task, that's why we provide professional and compassionate support in planning and coordinating all aspects of the funeral service, to ensure that your loved one is honored in the most dignified and meaningful way.</p>
                     </div>
                 </div>
             </div>
@@ -206,8 +206,8 @@
                 </ul>
             </div>
         </section>
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
+        <!-- Owner-->
+        <section class="page-section bg-light" id="owner">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">The Owner</h2>
@@ -269,8 +269,8 @@
                 </div>
             </div>
         </div> --}}
-        <!-- Contact-->
-        <section class="page-section" id="contact">
+        <!-- Location-->
+        <section class="page-section" id="location">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Location</h2>
@@ -331,6 +331,14 @@
                     <!-- Submit Button-->
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
                 </form> --}}
+                <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1154.9540391616752!2d125.54263330604942!3d8.95030946575832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c0408710105b%3A0xcb0bf88d37099743!2sBrgy.%20Leon%20Kilat%20Livelihood%20Center!5e1!3m2!1sen!2sph!4v1674618064259!5m2!1sen!2sph" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
             </div> 
         </section>
         @include('homepage.includes.footer')

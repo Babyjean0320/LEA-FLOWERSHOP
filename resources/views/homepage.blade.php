@@ -12,6 +12,7 @@
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
             </div>
         </header>
+        
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
@@ -22,25 +23,25 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         {{-- <span class="fa-stack fa-4x"> --}}
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
+                            {{-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> --}}
+                        {{-- </span> --}}
                         <h4 class="my-3">Wedding</h4>
                         <p class="text-muted">We take care of the floral arrangements for the wedding, including creating the bride's bouquet.</p>
                     </div>
                     <div class="col-md-4">
                         {{-- <span class="fa-stack fa-4x"> --}}
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
+                            {{-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> --}}
+                        {{-- </span> --}}
                         <h4 class="my-3">Birthday</h4>
-                        <p class="text-muted">we also specialize in planning and executing spectacular birthday celebrations and debuts that will leave a lasting impression on all of your guests.</p>
+                        <p class="text-muted">We also specialize in planning and executing spectacular birthday celebrations and debuts that will leave a lasting impression on all of your guests.</p>
                     </div>
                     <div class="col-md-4">
                         {{-- <span class="fa-stack fa-4x"> --}}
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
+                            {{-- <i class="fas fa-circle fa-stack-2x text-primary"></i> --}}
+                            {{-- <i class="fas fa-lock fa-stack-1x fa-inverse"></i> --}}
+                        {{-- </span> --}}
                         <h4 class="my-3">Funeral</h4>
                         <p class="text-muted">We understand that organizing a funeral can be a difficult and emotional task, that's why we provide professional and compassionate support in planning and coordinating all aspects of the funeral service, to ensure that your loved one is honored in the most dignified and meaningful way.</p>
                     </div>
@@ -153,20 +154,21 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    {{-- <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
+                    <ul>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div> --}}
+                        {{-- <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4></h4> --}}
+                                <h4 class="text-center subheading">Lea Flowershop</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-center">Lea flower shop is a retail establishment that specializes in the sale of cut flowers, bouquets, and floral arrangements. These shops may also sell a variety of potted plants, as well as vases and other accessories for flower arrangements. Some flower shops may also offer services such as delivery, custom arrangements, and event planning. They are often staffed by florists who have training and expertise in the art of flower arranging and can offer customers guidance and recommendations for selecting the perfect flowers for any occasion. The flower shop business model is based on the sale of flowers for events such as weddings, birthdays, funerals, or holidays. They also sell flowers for home decorations, garden plants and gift bouquets. Additionally, some flower shops also offer online ordering and home delivery services to make it more convenient for customers to purchase flow</p>
+                            </div>
                         </div>
-                    </li>
-                    <li class="timeline-inverted">
+                    </ul>
+                    {{-- <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -195,16 +197,10 @@
                             </div>
                             <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                         </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
+                    </li> --}}
+                    {{-- <li class="timeline-inverted">
+                        <div class="timeline-image"> --}}
+                           
                         </div>
                     </li>
                 </ul>
@@ -214,47 +210,47 @@
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">The Owner</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            {{-- <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." /> --}}
+                            <h4></h4>
+                            <p class="text-muted"></p>
+                            {{-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label=""><i class=""></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label=""><i class=""></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label=""><i class=""></i></a> --}}
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Marketer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/Lea.jpg" alt="..." />
+                            <h4>LEA E. JANDAYAN</h4>
+                            <p class="text-muted"></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="team-member">
+                        {{-- <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
                             <h4>Larry Parker</h4>
                             <p class="text-muted">Lead Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    {{-- <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div> --}}
                 </div>
             </div>
         </section>
-        <!-- Clients-->
+        {{-- <!-- Clients-->
         <div class="py-5">
             <div class="container">
                 <div class="row align-items-center">
@@ -272,14 +268,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+                    <h2 class="section-heading text-uppercase">Location</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                {{-- </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
                 <!-- * * * * * * * * * * * * * * *-->
@@ -334,7 +330,7 @@
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
+                </form> --}}
             </div> 
         </section>
         @include('homepage.includes.footer')
@@ -467,7 +463,7 @@
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close 
                                     </button>
                                 </div>
                             </div>
@@ -501,7 +497,7 @@
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close P
+                                        Close 
                                     </button>
                                 </div>
                             </div>

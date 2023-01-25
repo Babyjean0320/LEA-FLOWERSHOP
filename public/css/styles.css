@@ -11341,7 +11341,8 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: #0c4128;
+  background: rgb(61,78,45);
+  background: linear-gradient(339deg, rgba(61,78,45,1) 21%, rgba(51,147,83,1) 79%);
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11410,8 +11411,8 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/bg-header.jpg");
+  color: rgb(64,103,25) linear-gradient(339deg, rgba(64,103,25,1) 21%, rgba(10,13,11,1) 79%);
+  background-image: url("../assets/img/bg.flowershop.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

@@ -27,45 +27,7 @@
                 </div>
             </div>
         </section>
-        
-        
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        {{-- <span class="fa-stack fa-4x"> --}}
-                            {{-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> --}}
-                        {{-- </span> --}}
-                        <h4 class="my-3">Wedding</h4>
-                        <p class="text-center">We take care of the floral arrangements for the wedding, including creating the bride's bouquet.</p>
-                    </div>
-                    <div class="col-md-4">
-                        {{-- <span class="fa-stack fa-4x"> --}}
-                            {{-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> --}}
-                        {{-- </span> --}}
-                        <h4 class="my-3">Birthday</h4>
-                        <p class="text-center">We also specialize in planning and executing spectacular birthday celebrations and debuts that will leave a lasting impression on all of your guests.</p>
-                    </div>
-                    <div class="col-md-4">
-                        {{-- <span class="fa-stack fa-4x"> --}}
-                            {{-- <i class="fas fa-circle fa-stack-2x text-primary"></i> --}}
-                            {{-- <i class="fas fa-lock fa-stack-1x fa-inverse"></i> --}}
-                        {{-- </span> --}}
-                        <h4 class="my-3">Funeral</h4>
-                        <p class="text-center">We understand that organizing a funeral can be a difficult and emotional task, that's why we provide professional and compassionate support in planning and coordinating all aspects of the funeral service, to ensure that your loved one is honored in the most dignified and meaningful way.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-            
-        <!-- Product Grid-->
+         <!-- Product Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
@@ -166,6 +128,47 @@
                 </div>
             </div>
         </section>
+        
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        {{-- <span class="fa-stack fa-4x"> --}}
+                            {{-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> --}}
+                        {{-- </span> --}}
+                         <img class="img-fluid" src="assets/img/m.jpg" alt="..." />
+                        <h4 class="my-3">Wedding</h4>
+                        <p class="text-center">We take care of the floral arrangements for the wedding, including creating the bride's bouquet.</p>
+                    </div>
+                    <div class="col-md-4">
+                        {{-- <span class="fa-stack fa-4x"> --}}
+                            {{-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> --}}
+                        {{-- </span> --}}
+                         <img class="img-fluid" src="assets/img/b.jpg" alt="..." />
+                        <h4 class="my-3">Birthday</h4>
+                        <p class="text-center">We also specialize in planning and executing spectacular birthday celebrations and debuts that will leave a lasting impression on all of your guests.</p>
+                    </div>
+                    <div class="col-md-4">
+                        {{-- <span class="fa-stack fa-4x"> --}}
+                            {{-- <i class="fas fa-circle fa-stack-2x text-primary"></i> --}}
+                            {{-- <i class="fas fa-lock fa-stack-1x fa-inverse"></i> --}}
+                        {{-- </span> --}}
+                         <img class="img-fluid" src="assets/img/w.jpg" alt="..." />
+                        <h4 class="my-3">Funeral</h4>
+                        <p class="text-center">We understand that organizing a funeral can be a difficult and emotional task, that's why we provide professional and compassionate support in planning and coordinating all aspects of the funeral service, to ensure that your loved one is honored in the most dignified and meaningful way.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+       
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">

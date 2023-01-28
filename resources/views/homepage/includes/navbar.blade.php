@@ -13,7 +13,7 @@
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Product</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#owner">Owner</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#announcement">Announcement</a></li>
                         <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
                         <li class="nav-item"><a class="nav-link btn btn-primary" href="{{ url('/login')}}">Log In</a></li>
                     </ul>

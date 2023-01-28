@@ -6,12 +6,28 @@
         @include('homepage.includes.navbar')
 
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" id="home">
             <div class="container">
                 <div class="masthead-subheading">Welcome To Our Shop</div>
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
             </div>
+
         </header>
+
+        <section class="page-section bg-light" id="announcement">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Announcement</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                
+                <div class="carousel" data-flickity='{ "autoPlay": true }'>
+                @foreach ($sliders as $sliderItem)
+                    <div class="carousel-cell" style="background-image: url({{ asset($sliderItem->image)}})"></div>
+                @endforeach
+                </div>
+            </div>
+        </section>
+        
         
         <!-- Services-->
         <section class="page-section" id="services">
@@ -48,6 +64,7 @@
                 </div>
             </div>
         </section>
+            
         <!-- Product Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
@@ -168,6 +185,9 @@
                             </div>
                         </div>
                     </ul>
+
+                    <!-- Carousel -->
+        
                     {{-- <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
@@ -206,6 +226,13 @@
                 </ul>
             </div>
         </section>
+            
+            <br>
+            <br>
+            
+
+                
+
         <!-- Owner-->
         <section class="page-section bg-light" id="owner">
             <div class="container">
@@ -269,12 +296,87 @@
                 </div>
             </div>
         </div> --}}
-        <!-- Location-->
+        
+
+
+         <section class="page-section" id="location">
+            <div class="container">
+                <div class="text-center">
+                    {{-- <h2 class="section-heading text-uppercase">Location</h2>
+                    <h3 class="section-subheading text-muted"></h3> --}}
+
+                    
+
+
+
+
+
+
+
+
+
         <section class="page-section" id="location">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Location</h2>
+                    <h2 class="fst-italic section-heading text-uppercase">Location</h2>
                     <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                {{-- <section class="contact-section bg-black">
+                        <div class="container px-4 px-lg-5">
+                            <div class="row gx-4 gx-lg-5">
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="card py-4 h-100">
+                                        <div class="card-body text-center">
+                                            <i class="fa-regular fa-user text-primary mb-2"></i>
+                                            <h4 class="text-uppercase m-0">Name</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50">Maricris S. Acido</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="card py-4 h-100">
+                                        <div class="card-body text-center">
+                                            <i class="fas fa-envelope text-primary mb-2"></i>
+                                            <h4 class="text-uppercase m-0">Email</h4>
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50"><a href="#!">acidovincent6@gmail.com</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="card py-4 h-100">
+                                        <div class="card-body text-center">
+                                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                            <h4 class="text-uppercase m-0">Phone</h4>
+                                      
+
+                                            <hr class="my-4 mx-auto" />
+                                            <div class="small text-black-50">0912 593 1632</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br> --}}
+
+                        {{-- <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0"> --}}
+                                <div class="responsive-container">
+                                    <iframe class="responsive-iframe d-flex align-content-around flex-wrap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.9788965363963!2d125.55306392918145!3d8.962668024328067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7b4a50a174a079d!2zOMKwNTcnNDUuNiJOIDEyNcKwMzMnMTMuMCJF!5e1!3m2!1sen!2sph!4v1674537397526!5m2!1sen!2sph" width="426" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            {{-- </div>
+                        </div> --}}
+                    </div>
+
+
                 {{-- </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -331,13 +433,17 @@
                     <!-- Submit Button-->
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
                 </form> --}}
-                <div class="col-md-6">
+
+
+
+                {{-- map --}}
+                {{-- <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1154.9540391616752!2d125.54263330604942!3d8.95030946575832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c0408710105b%3A0xcb0bf88d37099743!2sBrgy.%20Leon%20Kilat%20Livelihood%20Center!5e1!3m2!1sen!2sph!4v1674618064259!5m2!1sen!2sph" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     
             </div> 
         </section>

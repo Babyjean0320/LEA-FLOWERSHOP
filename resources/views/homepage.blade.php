@@ -7,9 +7,10 @@
 
         <!-- Masthead-->
         <header class="masthead" id="home">
-            <div class="container">
-                <div class="masthead-subheading">Welcome To Our Shop</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+            {{-- <div class="container">
+                <div class="masthead-subheading">Welcome To Our Shop</div> --}}
+                <div class="masthead-heading text-uppercase">WELCOME TO OUR SHOP</div>
+                
             </div>
 
         </header>
@@ -42,7 +43,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/rose.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/rosey.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">ROSE</div>
@@ -57,7 +58,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/sunflower.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/sun.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">SUNFLOWER</div>
@@ -72,7 +73,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/gerbera.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/gerbera.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">GERBERA</div>
@@ -87,7 +88,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/cal.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/lily.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">CALLALILY</div>
@@ -102,7 +103,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/dendrobium sonia.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/sonia.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">DENBROIUM SONIA</div>
@@ -117,7 +118,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/baby breath.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/breath.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">BABY BREATH</div>
@@ -237,7 +238,7 @@
                 
 
         <!-- Owner-->
-        <section class="page-section bg-light" id="owner">
+        <section class="page-section bg-light" id="about">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">The Owner</h2>
@@ -259,9 +260,8 @@
                             <img class="mx-auto rounded-circle" src="assets/img/Lea.jpg" alt="..." />
                             <h4>LEA E. JANDAYAN</h4>
                             <p class="text-muted"></p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            
+                            <a class="btn btn-dark btn-social mx-2" href="https://web.facebook.com/lea.jandayan?_rdc=1&_rdr!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -306,6 +306,8 @@
                     <h2 class="fst-italic section-heading text-uppercase">Location</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
+                  <div class="timeline-body"><p class="text-center">Located @Brgy. Leon Kilat, Butuan City near Post Office</p>
+                            </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
                 <!-- * * * * * * * * * * * * * * *-->
@@ -447,7 +449,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">ROSE</h2>
                                     <p class="item-intro text-muted">The rose is one of the best sellers due to its beauty and versatility as a symbol of love and affection.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/Rose.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/Rosey.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
                                         {{-- <li>
@@ -481,7 +483,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">SUNFLOWER</h2>
                                     <p class="item-intro text-muted">Sunflowers are one of the best sellers due to their bright and cheerful appearance and the symbol of adoration and loyalty they represent..</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/Sunflower.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/Sun.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
                                         {{-- <li>
@@ -515,7 +517,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">GERBERA</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/Gerbera.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/Gerbera.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
                                         {{-- <li>
@@ -549,7 +551,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">CALLALILY</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/Cal.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/Lily.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
                                         {{-- <li>
@@ -583,7 +585,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">DENBROIUM SONIA</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/Dendrobium Sonia.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/Sonia.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
                                         {{-- <li>

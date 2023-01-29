@@ -449,7 +449,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">ROSE</h2>
-                                    <p class="item-intro text-muted">The rose is one of the best sellers due to its beauty and versatility as a symbol of love and affection.</p>
+                                    {{-- <p class="item-intro text-muted">The rose is one of the best sellers due to its beauty and versatility as a symbol of love and affection.</p> --}}
                                     <img class="img-fluid d-block mx-auto" src="assets/img/Rosey.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
@@ -483,7 +483,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">SUNFLOWER</h2>
-                                    <p class="item-intro text-muted">Sunflowers are one of the best sellers due to their bright and cheerful appearance and the symbol of adoration and loyalty they represent..</p>
+                                    {{-- <p class="item-intro text-muted">Sunflowers are one of the best sellers due to their bright and cheerful appearance and the symbol of adoration and loyalty they represent..</p> --}}
                                     <img class="img-fluid d-block mx-auto" src="assets/img/Sun.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
@@ -517,7 +517,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">GERBERA</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    {{-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> --}}
                                     <img class="img-fluid d-block mx-auto" src="assets/img/Gerbera.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
@@ -551,7 +551,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">CALLALILY</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    {{-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> --}}
                                     <img class="img-fluid d-block mx-auto" src="assets/img/Lily.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
@@ -585,7 +585,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">DENBROIUM SONIA</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    {{-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> --}}
                                     <img class="img-fluid d-block mx-auto" src="assets/img/Sonia.png" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">
@@ -620,7 +620,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">BABY BREATH</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    {{-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> --}}
                                     <img class="img-fluid d-block mx-auto" src="assets/img/Baby Breath.jpg" alt="..." />
                                     <p></p>
                                     <ul class="list-inline">

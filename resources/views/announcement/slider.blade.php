@@ -25,7 +25,7 @@
 </div> --}}
     <div class="flex items-center justify-center my-8">
         <a href="{{ url('/sliders/create') }}">
-            <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Add Slider +</button>
+            <button type="button" class="text-white bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-orange-300 dark:focus:ring-orange-800 shadow-lg shadow-orange-500/50 dark:shadow-lg dark:shadow-orange-800/80 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Add Slider +</button>
         </a>
     </div>
 
@@ -35,16 +35,16 @@
                         <thead class="block md:table-header-group">
                             <tr class="border border-grey-500 md:border-none block md:table-row absolute -top-full md:top-auto -left-full md:left-auto  md:relative ">
                             <!-- <th class = "border-solid border-2 border-light-blue-500 p-1 bg-red-300">ID</th> -->
-                            <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Title</th>
-                            <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Description</th>
-                            <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-center block md:table-cell">Image</th>
+                            <th class="bg-orange-400 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Title</th>
+                            <th class="bg-orange-400 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Description</th>
+                            <th class="bg-orange-400 p-2 text-white font-bold md:border md:border-grey-500 text-center block md:table-cell">Image</th>
                             <!-- <th class = "border-solid border-2 border-light-blue-500 p-1 bg-red-300">Status</th> -->
-                            <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-center block md:table-cell">Action</th>
+                            <th class="bg-orange-400 p-2 text-white font-bold md:border md:border-grey-500 text-center block md:table-cell">Action</th>
                             </tr>
                             </thead>
                             <tbody class="block md:table-row-group">
                         @foreach ($sliders as $slider)
-                        <tr class="bg-gray-300 border border-grey-500 md:border-none block md:table-row">
+                        <tr class="bg-orange-300 border border-grey-500 md:border-none block md:table-row">
                         <!-- <td class="p-1">{{$slider->id}}</td> -->
                             <td class="p-2 md:border md:border-grey-500 text-left block md:table-cell">{{$slider->title}}</td>
                             <td class="p-2 md:border md:border-grey-500 text-left block md:table-cell">{{$slider->description}}</td>

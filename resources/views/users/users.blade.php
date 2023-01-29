@@ -7,7 +7,7 @@
     
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+            <div class="bg-orange-600 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 font-bold">
                     {{-- {{ __("You're logged in!") }} --}}
                     
@@ -30,7 +30,7 @@
 
 
                     <a href="{{ url('/users/add') }}">
-                    <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Add Users +</button>
+                    <button type="button" class="text-white bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-orange-300 dark:focus:ring-orange-800 shadow-lg shadow-orange-500/50 dark:shadow-lg dark:shadow-orange-500/80 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Add Users +</button>
                     </a>
     
                     {{-- Table --}}
@@ -38,17 +38,17 @@
                     <table class="min-w-full border-collapse block md:table">
                         <thead class="block md:table-header-group">
                             <tr class="border border-grey-500 md:border-none block md:table-row absolute -top-full md:top-auto -left-full md:left-auto  md:relative ">
-                                <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Name</th>
-                                <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Email Address</th>
-                                <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Created</th>
-                                <th class="bg-gray-600 p-2 text-white font-bold md:border md:border-grey-500 text-center block md:table-cell">Actions</th>
+                                <th class="bg-orange-400 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Name</th>
+                                <th class="bg-orange-400 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Email Address</th>
+                                <th class="bg-orange-400 p-2 text-white font-bold md:border md:border-grey-500 text-left block md:table-cell">Created</th>
+                                <th class="bg-orange-400 p-2 text-white font-bold md:border md:border-grey-500 text-center block md:table-cell">Actions</th>
                             </tr>
                         </thead>
 
                         <tbody class="block md:table-row-group">
 
                             @foreach ($users as $user)
-                                <tr class="bg-gray-300 border border-grey-500 md:border-none block md:table-row">
+                                <tr class="bg-orange-300 border border-grey-500 md:border-none block md:table-row">
                                     <td class="p-2 md:border md:border-grey-500 text-left block md:table-cell"><span class="inline-block w-1/3 md:hidden font-bold">Name</span> {{ $user->name }} </td>
                                     <td class="p-2 md:border md:border-grey-500 text-left block md:table-cell"><span class="inline-block w-1/3 md:hidden font-bold">Email Address</span> {{ $user->email }} </td>
                                     <td class="p-2 md:border md:border-grey-500 text-left block md:table-cell"><span class="inline-block w-1/3 md:hidden font-bold">Created</span> {{ $user->created_at }} </td>

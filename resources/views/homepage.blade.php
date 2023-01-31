@@ -288,22 +288,22 @@
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Our Office</h5>
-                                <span>123 Street, New York, USA</span>
+                                <h5 class="mb-0">Location</h5>
+                                <span>Brgy. Leon Kilat, Butuan City Near Post Office</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Email Us</h5>
-                                <span>info@example.com</span>
+                                <h5 class="mb-0">Visit Our Facebook</h5>
+                                 <a class="btn btn-dark btn-social mx-2" href="https://web.facebook.com/lea.jandayan?_rdc=1&_rdr!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             </div>
                         </div>
                         <div class="d-flex align-items-center">
                             <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
                             <div class="text-start">
                                 <h5 class="mb-0">Call Us</h5>
-                                <span>+012 345 6789</span>
+                                <span>+639673679594</span>
                             </div>
                         </div>
                     </div>
